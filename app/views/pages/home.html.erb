@@ -2,13 +2,27 @@
 
 <div class="jumbotron text-center">
     <h1>Welcome to Gold Valley</h1>
-    <h3>The hub where entrepreneurs and investors meet developers.</h3>
-    <h6>THE FIRST ONLINE STARTUP COMMUNITY</h6>
+    <h4>Silicon Valley for Third World Countries</h4>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Basic Membership</h2>
+            <h4>Sign up for free and get basic access to the community.</h4>  
+            <br/>
+            <%= link_to "Sign up with Basic", new_user_registration_path, class: 'btn btn-primary btn-lg btn-block' %>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Pro Membership</h2>
+            <h4>Sign up for the pro account for $10/month and get access to the community and members contact information!</h4>
+            <%= link_to "Sign up with Pro", new_user_registration_path, class: 'btn btn-success btn-lg btn-block' %>
+
+        </div>    
+    </div>
 </div>
 
 
-<p>
-    Africas Silicon Valley. Get your idea out in the open.
-    Be seen by entrepreneurs and investors.
-</p>
+
 </div>
